@@ -28,6 +28,7 @@ resultado = modelo.predict(teste)
 print(resultado)
 
 
+
 diferencas = resultado - marcacoes_teste
 
 acertos = [d for d in diferencas if d == 0]
